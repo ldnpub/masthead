@@ -266,9 +266,15 @@ async function drain() {
   }
 }
 
+function uiLang() {
+  return store.withDefaults(readConfig()).ui.lang === 'fr' ? 'fr' : 'en';
+}
+
 function enqueue(command, args) {
   if (DEMO && !READ_ONLY.has(command)) {
-    const error = new Error('The sample shelf is read-only. Stop the demo and run npm start to record.');
+    const error = new Error(uiLang() === 'fr'
+      ? 'L’étagère d’exemple est en lecture seule. Arrêtez la démo et lancez npm start pour enregistrer.'
+      : 'The sample shelf is read-only. Stop the demo and run npm start to record.');
     error.status = 403;
     throw error;
   }

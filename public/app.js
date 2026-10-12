@@ -380,7 +380,7 @@
       <p class="kicker">${esc(e.kicker)}</p>
       <h2>${esc(t('nav.editions'))}</h2>
       <p class="lede">${esc(e.intro)}</p>
-      <p class="meta" id="feed-url">${esc(feedUrl)}</p>
+      <p class="feed-url" id="feed-url">${esc(feedUrl)}</p>
       <p><button class="btn secondary" type="button" data-action="copy-feed" data-url="${esc(feedUrl)}">${esc(e.copy)}</button></p>
       <div class="filters">${buttons}</div>
       ${list.length ? list.map((ep) => editionRow(ep) + `<p><button class="btn secondary" type="button" data-action="delete-ep" data-id="${esc(ep.id)}">${esc(e.remove)}</button></p>`).join('') : `<p>${esc(e.empty)}</p>`}

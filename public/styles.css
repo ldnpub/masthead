@@ -206,6 +206,13 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 700; letter-spacing: -0.03e
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+.feed-url {
+  font-family: var(--mono);
+  font-size: 14px;
+  letter-spacing: 0;
+  text-transform: none;
+  margin: 8px 0;
+}
 .flag {
   display: inline-block;
   background: var(--signal);
