@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160" role="img" aria-label="Masthead">
+  <rect width="640" height="160" fill="#f3ecdf"/>
+  <rect x="16" y="16" width="128" height="128" fill="#1c140f"/>
+  <rect x="24" y="24" width="112" height="112" fill="none" stroke="#f4efe4" stroke-width="2"/>
+  <path fill="#f4efe4" d="M40 116V48h10l26 36 26-36h10v68h-9V66L76 102 49 66v50H40z"/>
+  <circle cx="116" cy="40" r="6" fill="#d63c2e"/>
+  <text x="168" y="78" fill="#1c140f" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="700" letter-spacing="-1">Masthead</text>
+  <text x="170" y="112" fill="#6b5e52" font-family="Georgia, 'Times New Roman', serif" font-size="18">The desk that reads aloud</text>
+  <rect x="168" y="124" width="72" height="6" fill="#d63c2e"/>
+</svg>

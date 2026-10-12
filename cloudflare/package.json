@@ -1,0 +1,7 @@
+{
+  "name": "masthead-feed",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Masthead podcast feeds, covers, and phone inbox on Cloudflare Workers."
+}

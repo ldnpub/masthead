@@ -1,0 +1,29 @@
+# Secrets and local configuration
+studio-config.json
+cloudflare/wrangler.jsonc
+.env
+.env.*
+*.pem
+*.key
+
+# Personal adapters (see docs/private-feeds.md). The example lives in engine/extractors/.
+extractors/*
+!extractors/.gitkeep
+
+# Library, audio, transcripts, session cookies written at runtime
+data/
+uploads/
+voices/
+
+# Tooling
+node_modules/
+cloudflare/node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+.DS_Store
+*.bak
+*.tmp
+.wrangler/

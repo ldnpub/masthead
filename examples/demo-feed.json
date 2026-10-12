@@ -1,0 +1,74 @@
+[
+  {
+    "id": "article-night-press",
+    "title": "The night the presses learned to speak",
+    "description": "A full reading of a fictional city-desk essay. Personal copy for the sample shelf.",
+    "pubDate": "2026-10-09T06:30:00.000Z",
+    "guid": "article-night-press",
+    "link": "https://example-press.test/city/the-night-the-presses-learned-to-speak",
+    "kind": "article",
+    "bytes": 4520448,
+    "durationSeconds": 754,
+    "chapters": true
+  },
+  {
+    "id": "article-half-inch",
+    "title": "A half-inch rule for the city column",
+    "description": "Sample article. Nothing here is a real publication.",
+    "pubDate": "2026-10-08T07:05:00.000Z",
+    "guid": "article-half-inch",
+    "link": "https://example-press.test/city/a-half-inch-rule",
+    "kind": "article",
+    "bytes": 3100000,
+    "durationSeconds": 512,
+    "chapters": true
+  },
+  {
+    "id": "x-citydesk-2041",
+    "title": "Wire — City Desk: the late edition is a voice now",
+    "description": "Sample post. The handle is fictional.",
+    "pubDate": "2026-10-11T21:14:00.000Z",
+    "guid": "x-citydesk-2041",
+    "link": "https://example-press.test/wire/2041",
+    "kind": "x",
+    "bytes": 980000,
+    "durationSeconds": 186,
+    "chapters": false
+  },
+  {
+    "id": "learn-cylinder-press",
+    "title": "How a cylinder press actually works",
+    "description": "Sample lesson on the shelf. Sources cited are fictional.",
+    "pubDate": "2026-10-06T18:00:00.000Z",
+    "guid": "learn-cylinder-press",
+    "link": "",
+    "kind": "learn",
+    "bytes": 6200000,
+    "durationSeconds": 1104,
+    "chapters": true
+  },
+  {
+    "id": "video-booth-tour",
+    "title": "Screen — A booth with no one in it",
+    "description": "Sample soundtrack. No real video was downloaded.",
+    "pubDate": "2026-10-04T12:00:00.000Z",
+    "guid": "video-booth-tour",
+    "link": "https://example-press.test/watch/booth",
+    "kind": "video",
+    "bytes": 8400000,
+    "durationSeconds": 643,
+    "chapters": true
+  },
+  {
+    "id": "web-mill-notes",
+    "title": "Field notes from a paper mill that does not exist",
+    "description": "Sample web reading. The page is fictional.",
+    "pubDate": "2026-10-02T09:40:00.000Z",
+    "guid": "web-mill-notes",
+    "link": "https://example-press.test/notes/paper-mill",
+    "kind": "web",
+    "bytes": 2400000,
+    "durationSeconds": 428,
+    "chapters": false
+  }
+]

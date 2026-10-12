@@ -1,0 +1,4 @@
+# Personal extractors go here as *.py files.
+# This directory is gitignored except this file.
+# Start from engine/extractors/example_member_press.py
+# and read docs/private-feeds.md.

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Masthead</title>
+  <meta name="description" content="The desk that reads aloud. A personal podcast made from sources you have the right to read.">
+  <link rel="icon" href="/logo.svg" type="image/svg+xml">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="stylesheet" href="/fonts/fonts.css">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a class="skip" href="#stage">Skip to the desk</a>
+  <header class="top">
+    <div class="brand-row">
+      <a class="brand" href="#desk">
+        <img src="/logo.svg" width="64" height="64" alt="">
+        <span>
+          <span class="wordmark">Masthead</span>
+          <span class="tagline" data-i18n="tagline">The desk that reads aloud.</span>
+        </span>
+      </a>
+      <div class="top-tools">
+        <p class="dateline" id="dateline"></p>
+        <div class="lang" role="group" aria-label="Language">
+          <button type="button" data-lang="en" class="lang-btn">EN</button>
+          <button type="button" data-lang="fr" class="lang-btn">FR</button>
+        </div>
+        <p class="lamp" id="lamp"><span class="dot"></span> <span data-i18n="onAir">On air</span></p>
+      </div>
+    </div>
+    <div class="double-rule" aria-hidden="true"></div>
+    <nav class="rail" id="rail" aria-label="Sections"></nav>
+  </header>
+  <main id="stage" tabindex="-1">
+    <p class="loading" data-i18n="loading">Setting type…</p>
+  </main>
+  <footer class="colophon">
+    <p data-i18n="colophon">edge-tts and fxtwitter are unofficial and may break. You are responsible for the rights to anything you record. Personal use.</p>
+  </footer>
+  <script src="/i18n.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+{
+  "sources": [
+    {
+      "id": "city-desk",
+      "label": "City Desk",
+      "error": null,
+      "items": [
+        {
+          "title": "The night the presses learned to speak",
+          "url": "https://example-press.test/city/the-night-the-presses-learned-to-speak",
+          "pubDate": "Thu, 09 Oct 2026 06:30:00 GMT",
+          "author": "A. Editor",
+          "published": true,
+          "skipped": false,
+          "hasFullText": true
+        },
+        {
+          "title": "Margin notes from the late edition",
+          "url": "https://example-press.test/city/margin-notes",
+          "pubDate": "Sat, 11 Oct 2026 05:10:00 GMT",
+          "author": "A. Editor",
+          "published": false,
+          "skipped": false,
+          "hasFullText": true
+        },
+        {
+          "title": "What the stone stairs remember",
+          "url": "https://example-press.test/city/stone-stairs",
+          "pubDate": "Fri, 10 Oct 2026 06:00:00 GMT",
+          "author": "Press Room",
+          "published": false,
+          "skipped": false,
+          "hasFullText": false
+        }
+      ]
+    },
+    {
+      "id": "members",
+      "label": "Members' daily",
+      "error": null,
+      "items": [
+        {
+          "title": "Members only: the galley proof",
+          "url": "https://members.example-press.test/galley-proof",
+          "pubDate": "Sun, 12 Oct 2026 04:00:00 GMT",
+          "author": "Night Editor",
+          "published": false,
+          "skipped": false,
+          "hasFullText": true
+        }
+      ]
+    }
+  ]
+}

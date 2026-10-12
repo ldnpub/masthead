@@ -1,0 +1,32 @@
+{
+  "ui": { "lang": "en", "timezone": "", "wizardDismissed": false },
+  "tts": {
+    "engine": "edge",
+    "voice": "en-US-AriaNeural",
+    "rate": 0,
+    "piperModel": ""
+  },
+  "publish": {
+    "publicBaseUrl": "",
+    "author": "Masthead",
+    "title": "Masthead"
+  },
+  "cloudflare": {
+    "accountId": "",
+    "bucket": "",
+    "token": ""
+  },
+  "inbox": { "token": "" },
+  "llm": { "provider": "none", "baseUrl": "", "model": "", "apiKey": "" },
+  "scheduler": { "enabled": false, "count": 2, "hour": 7, "minute": 0 },
+  "server": { "listenAll": false, "autostart": false },
+  "xFollow": {
+    "handles": [],
+    "intervalHours": 3,
+    "digestHour": 8,
+    "digestWeekday": 0,
+    "schedulerEnabled": false,
+    "accounts": {}
+  },
+  "sources": []
+}

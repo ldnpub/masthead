@@ -1,0 +1,17 @@
+{
+  "name": "masthead",
+  "version": "1.0.0",
+  "description": "A local desk that reads articles, posts, and pages aloud into a personal podcast.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "demo": "STUDIO_DEMO=1 node server.js",
+    "setup": "bash setup.sh",
+    "install-deps": "bash installer.sh",
+    "test": "node --test test/*.test.js test/*.test.mjs && python3 -m unittest discover -s test -p 'test_*.py'",
+    "covers": "python3 scripts/render_covers.py"
+  }
+}

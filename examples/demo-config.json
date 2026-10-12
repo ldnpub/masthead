@@ -1,0 +1,36 @@
+{
+  "ui": { "lang": "en", "timezone": "UTC", "wizardDismissed": true },
+  "tts": { "engine": "edge", "voice": "en-US-AriaNeural", "rate": 0, "piperModel": "" },
+  "publish": { "publicBaseUrl": "", "author": "Masthead", "title": "Masthead" },
+  "cloudflare": { "accountId": "", "bucket": "" },
+  "llm": { "provider": "ollama", "baseUrl": "http://127.0.0.1:11434", "model": "llama3.1" },
+  "scheduler": { "count": 2, "hour": 7, "minute": 0, "enabled": false },
+  "server": { "listenAll": false, "autostart": false },
+  "inbox": { "token": "demo-share-token" },
+  "xFollow": {
+    "handles": ["citydesk"],
+    "intervalHours": 3,
+    "digestHour": 8,
+    "digestWeekday": 0,
+    "schedulerEnabled": true,
+    "accounts": {
+      "citydesk": { "minChars": 280, "includeThreads": true, "autoPublish": true, "digest": "weekly", "digestFullMinChars": 280 }
+    }
+  },
+  "sources": [
+    {
+      "id": "city-desk",
+      "label": "City Desk",
+      "feedUrl": "https://feeds.example-press.test/city.xml",
+      "extractor": "readable",
+      "auth": { "scheme": "none" }
+    },
+    {
+      "id": "members",
+      "label": "Members' daily",
+      "feedUrl": "https://members.example-press.test/feed.xml?token=replace-me",
+      "extractor": "example-member-press",
+      "auth": { "scheme": "cookie", "cookie": "session=replace-me" }
+    }
+  ]
+}

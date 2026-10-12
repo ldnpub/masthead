@@ -1,0 +1,19 @@
+{
+  // Copy to wrangler.jsonc with ./setup.sh. Do not put an account id in this example.
+  "name": "masthead",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-12",
+  "observability": {
+    "enabled": true,
+    "logs": { "enabled": true, "head_sampling_rate": 1 },
+    "traces": { "enabled": true, "head_sampling_rate": 1 }
+  },
+  "vars": {
+    "PODCAST_TITLE": "Masthead",
+    "PODCAST_AUTHOR": "Masthead",
+    "PODCAST_LANGUAGE": "en"
+  },
+  "r2_buckets": [
+    { "binding": "BUCKET", "bucket_name": "REPLACE_WITH_YOUR_BUCKET" }
+  ]
+}

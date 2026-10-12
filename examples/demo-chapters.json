@@ -1,0 +1,23 @@
+{
+  "article-night-press": {
+    "version": "1.2.0",
+    "title": "The night the presses learned to speak",
+    "chapters": [
+      { "startTime": 0, "title": "Introduction" },
+      { "startTime": 46, "title": "The stone and the lamp" },
+      { "startTime": 198, "title": "A voice for the city column" },
+      { "startTime": 411, "title": "What we do not print" },
+      { "startTime": 640, "title": "Sign-off" }
+    ]
+  },
+  "learn-cylinder-press": {
+    "version": "1.2.0",
+    "title": "How a cylinder press actually works",
+    "chapters": [
+      { "startTime": 0, "title": "The idea" },
+      { "startTime": 210, "title": "The mechanism" },
+      { "startTime": 640, "title": "Limits" },
+      { "startTime": 960, "title": "Recap" }
+    ]
+  }
+}

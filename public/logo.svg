@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="Masthead">
+  <rect width="80" height="80" fill="#1c140f"/>
+  <rect x="5" y="5" width="70" height="70" fill="none" stroke="#f4efe4" stroke-width="1.5"/>
+  <rect x="8.5" y="8.5" width="63" height="63" fill="none" stroke="#f4efe4" stroke-width="0.5"/>
+  <path fill="#f4efe4" d="M18 58V22h6.2l15.8 22.5L55.8 22H62v36h-5.6V33.2L40.2 54.6 24 33.2V58H18z"/>
+  <circle cx="62" cy="16" r="4" fill="#d63c2e"/>
+</svg>
