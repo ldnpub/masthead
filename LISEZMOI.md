@@ -1,5 +1,9 @@
 # Masthead
 
+![Bêta](https://img.shields.io/badge/statut-b%C3%AAta-d63c2e?style=flat-square)
+
+**Bêta.** Version `0.1.0-beta`. Attendez-vous à des changements incompatibles avant la 1.0.
+
 La une, à voix haute.
 
 Masthead transforme des sources que vous avez déjà le droit de lire en podcast personnel : articles RSS, posts et fils X, bandes-son de vidéos, pages web, et courtes leçons. Le pupitre tourne sur votre ordinateur. Publier les flux est facultatif, et la publication se fait sur un compte Cloudflare qui vous appartient.

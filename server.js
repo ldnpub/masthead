@@ -601,7 +601,7 @@ function renderGuide() {
   <header class="top">
     <a class="brand" href="/">
       <img src="/logo.svg" alt="" width="48" height="48">
-      <span class="wordmark">Masthead</span>
+      <span class="wordmark-row"><span class="wordmark">Masthead</span> <abbr class="beta" title="Beta. Expect breaking changes before 1.0.">BETA</abbr></span>
     </a>
     <p class="tagline">Private sources, for your own ears.</p>
   </header>

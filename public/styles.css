@@ -78,6 +78,11 @@ img { display: block; }
   color: inherit;
 }
 .brand img { width: 72px; height: 72px; }
+.wordmark-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
 .wordmark {
   display: block;
   font-family: var(--serif);
@@ -85,6 +90,19 @@ img { display: block; }
   font-size: 68px;
   letter-spacing: -0.045em;
   line-height: 0.82;
+}
+.beta {
+  margin-top: 6px;
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.14em;
+  line-height: 1.2;
+  text-decoration: none;
+  color: var(--signal-deep);
+  border: 1px solid var(--signal);
+  padding: 2px 4px;
 }
 .tagline {
   display: block;
@@ -416,6 +434,7 @@ input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible
 
 @media (max-width: 860px) {
   .wordmark { font-size: 48px; }
+  .beta { margin-top: 4px; }
   .brand img { width: 56px; height: 56px; }
   .brand-row, .desk-grid, .split, .compose-grid, .edition, .jobs li, .inbox-list li { display: block; }
   .span-2 { grid-column: auto; }

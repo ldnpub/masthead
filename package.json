@@ -1,6 +1,6 @@
 {
   "name": "masthead",
-  "version": "1.0.0",
+  "version": "0.1.0-beta",
   "description": "A local desk that reads articles, posts, and pages aloud into a personal podcast.",
   "license": "MIT",
   "engines": {

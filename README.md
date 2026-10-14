@@ -1,5 +1,9 @@
 # Masthead
 
+![Beta](https://img.shields.io/badge/status-beta-d63c2e?style=flat-square)
+
+**Beta.** This is `0.1.0-beta`. Expect breaking changes before 1.0.
+
 The desk that reads aloud.
 
 Masthead turns sources you already have the right to read into a personal podcast: RSS articles, X posts and threads, video soundtracks, web pages, and short lessons. It runs on your computer. Publishing the feeds is optional, and it publishes them to a Cloudflare account you own.
